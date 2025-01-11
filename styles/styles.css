@@ -90,6 +90,7 @@ font-weight: 600;
 line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
+cursor: pointer;
 
 
     
@@ -103,7 +104,7 @@ text-align: left;
   }
 
   .vision {
-    background-color: #f4f4f4; /* Light gray background */
+    background-color: #f4f4f4; 
     padding: 50px 0;
   }
   
@@ -300,6 +301,7 @@ font-weight: 600;
 line-height: 19px;
 letter-spacing: 0%;
 text-align: left;
+cursor: pointer;
   }
 
   .learn-more-button-2 {
@@ -325,6 +327,7 @@ text-align: left;
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+    cursor: pointer;
       }
     
       .learn-more-button-3 {
@@ -350,13 +353,14 @@ text-align: left;
         line-height: 19px;
         letter-spacing: 0%;
         text-align: left;
+        cursor: pointer;
           }
 
 
 
 
           .recent-news {
-            background-color: #f4f4f4; /* Light gray background */
+            background-color: #f4f4f4; 
             padding: 50px 0;
           }
       
@@ -553,4 +557,162 @@ font-weight: 600;
 line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
-          }          
+cursor: pointer;
+          }  
+          
+          
+
+          .donation-section {
+position: static;
+width: auto;
+height: 560px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 4;
+flex-grow: 0;
+background-color: #f4f4f4; 
+          }
+      
+          .donation-title {
+position: static;
+width: auto;
+height: 48px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+color: rgb(14, 14, 14);
+font-family: "Fira Sans", serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+          }
+      
+          .donation-description {
+position: static;
+width: 1104px;
+height: 48px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 24;
+padding: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+color: rgba(14, 14, 14, 0.7);
+font-family: "Fira Sans", serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+          }
+      
+          .donation-options {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+          }
+      
+          .donation-option {
+position: static;
+width: 240px;
+height: 128px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 40px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.8);
+font-family: "Fira Sans", serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+cursor: pointer;
+          }
+
+#odd-one{
+background: rgb(198, 228, 214);
+}
+      
+          .donation-option:hover {
+            background-color: #d0d0d0;
+          }
+      
+          .other-amount {
+position: static;
+width: 1032px;
+height: 64px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 20px 40px 20px 40px;
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 32px 0px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.3);
+font-family: "Fira Sans", serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+          }
+      
+          .donate-button {
+            position: static;
+width: 139px;
+height: 48px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 13px 26px 13px 26px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: "Fira Sans", serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+cursor: pointer;
+          }
