@@ -105,7 +105,7 @@ cursor: pointer;
 
   .vision {
     background-color: #f4f4f4; 
-    padding: 50px 0;
+    padding: 30px 0;
   }
   
   .vision-title {
@@ -361,7 +361,7 @@ cursor: pointer;
 
           .recent-news {
             background-color: #f4f4f4; 
-            padding: 50px 0;
+            padding: 10px 0;
           }
       
 .recent-news-title {
@@ -372,13 +372,13 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-gap: 24;
+gap: 12;
 padding: 0px;
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
-margin: 24px 0px;
+margin: 12px 0px;
 color: rgb(14, 14, 14);
 font-family: "Fira Sans", serif;
 font-size: 40px;
@@ -401,7 +401,7 @@ flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
-margin: 12px 0px;
+margin: 15px 0px;
 color: rgba(14, 14, 14, 0.7);
 font-family: "Fira Sans", serif;
 font-size: 16px;
