@@ -351,3 +351,206 @@ text-align: left;
         letter-spacing: 0%;
         text-align: left;
           }
+
+
+
+
+          .recent-news {
+            background-color: #f4f4f4; /* Light gray background */
+            padding: 50px 0;
+          }
+      
+.recent-news-title {
+position: static;
+width: 1280px;
+height: 48px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+color: rgb(14, 14, 14);
+font-family: "Fira Sans", serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+          }
+.recent-news-desc{
+position: static;
+width: auto;
+height: 48px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 12px 0px;
+color: rgba(14, 14, 14, 0.7);
+font-family: "Fira Sans", serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+      
+          .news-item {
+position: static;
+width: auto;
+height: 402px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 48px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+border-radius: 24px;
+background: rgb(255, 255, 255);
+          }
+
+          .news-item-2 {
+            position: static;
+            width: auto;
+            height: 402px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 32;
+            padding: 48px;
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;
+            margin: 24px 0px;
+            border-radius: 24px;
+            background: rgb(255, 255, 255);
+            flex-direction: row-reverse; 
+                      }
+            
+
+.news-title{
+position: static;
+width: 744px;
+height: 38px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 12px 0px;
+color: rgba(14, 14, 14, 0.8);
+font-family: "Fira Sans", serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+      
+.satelite-image {
+position: static;
+width: 408px;
+height: 306px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+border-radius: 24px;
+
+background: url(image);
+          }
+      
+          .news-details {
+            flex: 1;
+            padding-left: 20px;
+          }
+      
+          .news-source img {
+position: static;
+width: 134px;
+height: 40px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 12px 5px;
+background: url(8f195aac6f4a2c38bbf72c1fbeddbf9b);
+          }
+      
+          .news-date-time {
+            font-size: 14px;
+            color: #888;
+            font-family: "Fira Sans", serif;
+          }
+      
+          .news-content {
+position: static;
+width: auto;
+height: 72px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding: 0px;
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+margin: 12px 0px;
+color: rgba(14, 14, 14, 0.7);
+font-family: "Fira Sans", serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+          }
+      
+          .read-more-button {
+position: static;
+width: 139px;
+height: 48px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 13px 26px 13px 26px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: "Fira Sans", serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+          }          
